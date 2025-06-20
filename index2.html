@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrollspy</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-4">
+            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1">Toyota</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-1-1">Volkswagen</a>
+                        <a class="nav-link ms-3 my-1" href="#item-1-2">bmw</a>
+                    </nav>
+                    <a class="nav-link" href="#item-2">Lexus</a>
+                    <a class="nav-link" href="#item-3">Item 3</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-3-1">Lamborghini</a>
+                        <a class="nav-link ms-3 my-1" href="#item-3-2">79 series</a>
+                    </nav>
+                </nav>
+            </nav>
+        </div>
+    
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                    <h4>80 series</h4>
+                    <p>Top 10 Best 80 Series Mods
+                    ECU Remapping.
+                    GVM & Suspension Upgrade.
+                    Bull Bar & Winch.
+                    Dual Battery System.
+                    Front-Mount Intercooler.
+                    Performance Exhaust System.
+                    Injector Upgrades.    Pre-Fuel Filter Kit.</p>
+                </div>
+                <div id="item-1-1">
+                    <h5>mk 7 gti</h5>
+                    <p>The Mk7 Golf GTI is the seventh generation of Volkswagen's iconic hot hatch, known for its blend of performance and
+                    everyday practicality. It's powered by a 2.0-liter turbocharged engine, producing around 220-230 horsepower depending on
+                    the specific model. The GTI also features distinctive styling elements like a red-accented front grille, sporty bumpers,
+                    and alloy wheels.</p>
+                </div>
+                <div id="item-1-2">
+                    <h5>m5 cs</h5>
+                    <p>The "M5 CS" refers to the BMW M5 Competition Sport, a high-performance, limited-edition variant of the BMW M5. It's
+                    known for being the most powerful production BMW ever, boasting a 4.4-liter twin-turbo V8 engine producing 635
+                    horsepower. The "CS" designation signifies its focus on track-oriented performance and lightweight design.</p>
+                </div>
+                <div id="item-2">
+                    <h4>lx 600</h4>
+                    <p>he Lexus LX 600 is a luxury SUV known for its powerful twin-turbocharged V6 engine, advanced technology, and comfortable
+                    interior. It features a 10-speed automatic transmission, available 25-speaker Mark Levinson audio system, and Lexus
+                    Safety System+ 2.5. The LX 600 boasts a muscular exterior design and is capable of handling various driving conditions,
+                    including off-road adventures.</p>
+                </div>
+                <div id="item-3">
+                    <h4>urus</h4>
+                    <p>The Lamborghini Urus is a high-performance SUV known for its powerful engine, distinctive design, and impressive speed.
+                    It's the first Super Sport Utility Vehicle from Lamborghini, combining the brand's signature sports car aesthetics with
+                    the practicality of an SUV.</p>
+                </div>
+                <div id="item-3-1">
+                    <h5>79 series</h5>
+                    <p>The Toyota Land Cruiser 79 series is a highly regarded, rugged and durable 4x4 pickup truck known for its off-road
+                    capabilities and reliability. It's a popular choice for those needing a dependable vehicle for challenging terrains,
+                    towing, and hauling freight.</p>
+                </div>
+                <div id="item-3-2">
+                    <h5>g 63</h5>
+                    <p>The G63, specifically the Mercedes-AMG G 63, is a high-performance version of the iconic Mercedes-Benz G-Class (also
+                    known as the G-Wagon). It's known for its powerful engine, luxurious features, and off-road capabilities, bridging the
+                    gap between luxury and ruggedness.
+                    </p>
+                </div>
+            </div>
+        </div></div>
+</body>
+</html>
